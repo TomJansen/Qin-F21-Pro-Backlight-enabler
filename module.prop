@@ -1,0 +1,7 @@
+id=qin-f21-pro-keyboard-backlight-enabler
+name=Keyboard Backlight Enabler For Qin F21 Pro
+version=v1.0
+versionCode=1
+author=Tom Jansen
+description=Enables the keyboard backlight on the Qin F21 Pro.
+updateJson=https://raw.githubusercontent.com/TomJansen/Qin-F21-Pro-Backlight-enabler/master/update.json
