@@ -21,5 +21,11 @@ elif [[ ${LCD_VALUE} == '0' ]]; then
 
 	echo 0 > /sys/class/leds/mt6370_pmu_led1/brightness
 	echo 0 > /sys/class/leds/mt6370_pmu_led2/brightness
+
+	# Sometime, the keyboard flickers and remains enabled, even if LCD is off.
+	sleep 0.333
+	echo 0 > /sys/class/leds/mt6370_pmu_led1/brightness
+	echo 0 > /sys/class/leds/mt6370_pmu_led2/brightness
+
 fi
 exit 0
